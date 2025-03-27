@@ -2,7 +2,6 @@
 import { animate, motion, useMotionTemplate, useMotionValue } from 'framer-motion';
 import Image from 'next/image';
 import { useEffect } from 'react';
-import { profile } from 'console';
 import { FiArrowRight } from 'react-icons/fi';
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "DD335C"];
 

@@ -1,6 +1,5 @@
 "use client"
 import { motion } from "framer-motion";
-import { section } from "framer-motion/client";
 export const Contact = () => {
 
     return (
