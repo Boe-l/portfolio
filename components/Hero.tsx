@@ -80,7 +80,7 @@ export const Hero = () => {
                 <motion.button style={{
                     border,
                     boxShadow,
-                    cursor:'pointer'
+                    cursor: 'pointer'
 
                 }}
                     whileHover={{
@@ -91,16 +91,17 @@ export const Hero = () => {
                         scale: 0.985
                     }}
                     className='flex w-fit items-center gap-2 rounded-full px-4 py-2'
-                    
+                    onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}
+
                 >
-                    
+
                     Baixar Curriculo  <FiArrowRight />
                 </motion.button>
             </div>
 
             <div className="bg-circle-container">
                 <div className="bg-circle-background">
-                <div className="bg-circle"></div>
+                    <div className="bg-circle"></div>
                 </div>
             </div>
         </motion.section>
